@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /*.box:first-child{
+            background-color: red;
+        }
+        .box:first-line{
+             color: yellow;
+        }
+        .box::first-letter{
+            color: blue;
+        }*/
+        /*nthchild*/
+
+        /*.box:nth-child(odd){
+            background-color: red;
+        }*/
+        
+        .box:nth-child(1){
+            color: red;
+        }
+        .boxes::before{
+            content: "I am a good boy.";
+            color:darkblue;
+        
+        }
+        .boxes::after{
+            content:"I belongs to mumbai";
+            color: green;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        suscipit, dolorem veritatis, repellat quae, eaque delectus illum est
+        soluta eveniet dolore mollitia temporibus placeat dicta officia quia
+        magnam beatae. Rem reprehenderit, atque recusandae inventore nihil cum
+        pariatur commodi esse id magnam. Consequuntur omnis obcaecati repellat
+        voluptas qui earum molestias quo!
+      </div>
+      <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+        harum voluptates reiciendis, repudiandae autem dolore at voluptate quis
+        odio placeat corporis porro, ullam voluptatibus sapiente. Esse hic
+        dolores eos omnis repellat aliquid totam. Omnis animi optio mollitia
+        veritatis. Minima nam aliquam suscipit repudiandae aliquid voluptatem
+        deserunt non autem consectetur excepturi.
+      </div>
+      <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+        harum voluptates reiciendis, repudiandae autem dolore at voluptate quis
+        odio placeat corporis porro, ullam voluptatibus sapiente. Esse hic
+        dolores eos omnis repellat aliquid totam. Omnis animi optio mollitia
+        veritatis. Minima nam aliquam suscipit repudiandae aliquid voluptatem
+        deserunt non autem consectetur excepturi.
+      </div>
+    </div>
+  </body>
+</html>
